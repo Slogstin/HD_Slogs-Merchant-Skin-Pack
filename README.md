@@ -3,6 +3,17 @@ This Addon adds more skins for the Hideous Destructor Merchants.
 
 _It REQUIRES both [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib) and the HDCoreLib branch of [Merchants](https://github.com/HDest-Community/Merchant/tree/HDCoreLib)!!_
 
+
+
+# Credits
+[Undead Zeratul](https://github.com/UndeadZeratul) and the HDest community for help and making this possible.
+
+GameFreak & Spike Chunsoft for the Kecleon Sounds
+
+Toby Fox for the Spamton sounds
+
+
+
 # Contents
 Currently there are only 3 skins:
 
