@@ -1,0 +1,48 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "Slogstin's Merchant Skins", "SLG_MerchantSkinMenu"
+}
+
+AddOptionMenu "HDAddonMenu"
+{
+	Submenu "Slogstin's Merchant Skins", "SLG_MerchantSkinMenu"
+}
+
+OptionValue "SpawnEnable"
+{
+    0,    "Off"
+    1,    "On"
+}
+
+OptionMenu "SLG_MerchantSkinMenu"
+{
+	Title "Extra Merchant Skins"
+	
+	StaticText "Choose which merchant skin you want in each store's skin pool!", "Gold"
+	StaticText ""
+	StaticText ""
+	StaticText "--- Kecleon (Purple) ---", "DarkGreen"
+	StaticText ""
+	Option "Weapon Merchant", "SLG_KecleonP_Weapon_MSkin", "SpawnEnable"
+	Option "Item Merchant", "SLG_KecleonP_Item_MSkin", "SpawnEnable"
+	Option "Ammo Merchant", "SLG_KecleonP_Ammo_MSkin", "SpawnEnable"
+	Option "Mag Merchant", "SLG_KecleonP_Mag_MSkin", "SpawnEnable"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	StaticText "--- Kecleon (Green) ---", "DarkGreen"
+	StaticText ""
+	Option "Weapon Merchant", "SLG_KecleonG_Weapon_MSkin", "SpawnEnable"
+	Option "Item Merchant", "SLG_KecleonG_Item_MSkin", "SpawnEnable"
+	Option "Ammo Merchant", "SLG_KecleonG_Ammo_MSkin", "SpawnEnable"
+	Option "Mag Merchant", "SLG_KecleonG_Mag_MSkin", "SpawnEnable"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	StaticText "--- Spamton ---", "DarkGreen"
+	StaticText ""
+	Option "Weapon Merchant", "SLG_Spamton_Weapon_MSkin", "SpawnEnable"
+	Option "Item Merchant", "SLG_Spamton_Item_MSkin", "SpawnEnable"
+	Option "Ammo Merchant", "SLG_Spamton_Ammo_MSkin", "SpawnEnable"
+	Option "Mag Merchant", "SLG_Spamton_Mag_MSkin", "SpawnEnable"
+}

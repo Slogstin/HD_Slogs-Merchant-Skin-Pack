@@ -1,0 +1,22 @@
+class HDMerchantSpamtonSkin : HDMerchant {
+	Default{
+		tag "Spamton G. Spamton";
+	}
+	States {
+		Spawn:
+			SPAM A 0 NoDelay;
+		SpawnLoop:
+			#### A 1 CheckBreathing();
+			Loop;
+		OpenMenu:
+			#### BCD 3 A_StartSound("Spamton/Buying");
+		Buying:
+			#### D 5 BuyingIdle("CloseMenu", "Spamton/GoAway");
+			Loop;
+		CloseMenu:
+			#### E 2 A_StartSound("Spamton/GoAway");
+			#### FEFEFEF 3;
+			#### E 10;
+			Goto SpawnLoop;
+	}
+}

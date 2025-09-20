@@ -1,0 +1,45 @@
+class HDMerchantKecleonSkin : HDMerchant {
+	Default{
+		tag "Purple Kecleon";
+	}
+	States {
+		Spawn:
+			SPAM A 0 NoDelay;
+			KECL A 0 NoDelay;
+		SpawnLoop:
+			#### A 1 CheckBreathing();
+			Loop;
+		OpenMenu:
+			#### B 4 A_StartSound("Kecleon/Buying");
+		Buying:
+			#### CD 10 BuyingIdle("CloseMenu", "Kecleon/GoAway");
+			Loop;
+		CloseMenu:
+			#### E 4 A_StartSound("Kecleon/GoAway");
+			#### FG 4;
+			#### HI 6;
+			Goto SpawnLoop;
+	}
+}
+
+class HDMerchantKecleonSkin2 : HDMerchant {
+	Default{
+		tag "Green Kecleon";
+	}
+	States {
+		Spawn:
+			KEC2 A 0 NoDelay;
+		SpawnLoop:
+			#### A 1 CheckBreathing();
+			Loop;
+		OpenMenu:
+			#### B 4 A_StartSound("Kecleon/Buying");
+		Buying:
+			#### CD 10 BuyingIdle("CloseMenu", "KecleonGreen/GoAway");
+			Loop;
+		CloseMenu:
+			#### E 3 A_StartSound("KecleonGreen/GoAway");
+			#### FGHIJK 3;
+			Goto SpawnLoop;
+	}
+}

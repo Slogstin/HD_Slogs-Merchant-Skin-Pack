@@ -1,0 +1,21 @@
+newMerchantSkin => { "name": "Kecleon", "classname": "HDMerchantKecleonSkin", "tag": "Kecleon" }
+newMerchantSkin => { "name": "Kecleon2", "classname": "HDMerchantKecleonSkin2", "tag": "Kecleon2" }
+newMerchantSkin => { "name": "Spamton", "classname": "HDMerchantSpamtonSkin", "tag": "Spamton" }
+
+//Purple Kecleon
+addMerchantStoreSkin => { "type": "item", "skin": "Kecleon", "enabled": "#SLG_KecleonP_Item_MSkin" }
+addMerchantStoreSkin => { "type": "weapon", "skin": "Kecleon", "enabled": "#SLG_KecleonP_Weapon_MSkin" }
+addMerchantStoreSkin => { "type": "mag", "skin": "Kecleon", "enabled": "#SLG_KecleonP_Mag_MSkin" }
+addMerchantStoreSkin => { "type": "ammo", "skin": "Kecleon", "enabled": "#SLG_KecleonP_Ammo_MSkin" }
+
+//Green Kecleon
+addMerchantStoreSkin => { "type": "item", "skin": "Kecleon2", "enabled": "#SLG_KecleonG_Item_MSkin" }
+addMerchantStoreSkin => { "type": "weapon", "skin": "Kecleon2", "enabled": "#SLG_KecleonG_Weapon_MSkin" }
+addMerchantStoreSkin => { "type": "mag", "skin": "Kecleon2", "enabled": "#SLG_KecleonG_Mag_MSkin" }
+addMerchantStoreSkin => { "type": "ammo", "skin": "Kecleon2", "enabled": "#SLG_KecleonG_Ammo_MSkin" }
+
+//Spamton
+addMerchantStoreSkin => { "type": "item", "skin": "Spamton", "enabled": "#SLG_Spamton_Item_MSkin" }
+addMerchantStoreSkin => { "type": "weapon", "skin": "Spamton", "enabled": "#SLG_Spamton_Weapon_MSkin" }
+addMerchantStoreSkin => { "type": "mag", "skin": "Spamton", "enabled": "#SLG_Spamton_Mag_MSkin" }
+addMerchantStoreSkin => { "type": "ammo", "skin": "Spamton", "enabled": "#SLG_Spamton_Ammo_MSkin" }

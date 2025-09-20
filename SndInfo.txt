@@ -1,0 +1,7 @@
+//Merchants
+Spamton/GoAway "Sounds/Spamton/SpamLeave2"
+Spamton/Buying "Sounds/Spamton/SpamBuy2"
+
+Kecleon/Buying	"Sounds/Kecleon/KecBuy"
+Kecleon/GoAway	"Sounds/Kecleon/KecLeave"
+KecleonGreen/GoAway	"Sounds/Kecleon/KecLeave2"

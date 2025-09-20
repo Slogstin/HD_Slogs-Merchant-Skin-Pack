@@ -1,0 +1,14 @@
+server bool SLG_KecleonP_Item_MSkin				= true;
+server bool SLG_KecleonP_Ammo_MSkin				= true;
+server bool SLG_KecleonP_Weapon_MSkin			= true;
+server bool SLG_KecleonP_Mag_MSkin				= true;
+
+server bool SLG_KecleonG_Item_MSkin				= true;
+server bool SLG_KecleonG_Ammo_MSkin				= true;
+server bool SLG_KecleonG_Weapon_MSkin			= true;
+server bool SLG_KecleonG_Mag_MSkin				= true;
+
+server bool SLG_Spamton_Item_MSkin				= true;
+server bool SLG_Spamton_Ammo_MSkin				= true;
+server bool SLG_Spamton_Weapon_MSkin			= true;
+server bool SLG_Spamton_Mag_MSkin				= true;
