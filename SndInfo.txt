@@ -1,7 +1,22 @@
-//Merchants
+//Spamton
 Spamton/GoAway "Sounds/Spamton/SpamLeave2"
 Spamton/Buying "Sounds/Spamton/SpamBuy2"
 
+//Kecleon
 Kecleon/Buying	"Sounds/Kecleon/KecBuy"
 Kecleon/GoAway	"Sounds/Kecleon/KecLeave"
 KecleonGreen/GoAway	"Sounds/Kecleon/KecLeave2"
+
+//Support Drones
+VirDrone/Buying1 "Sounds/Drones/DroneBuy1.ogg"
+VirDrone/Buying2 "Sounds/Drones/DroneBuy2.ogg"
+VirDrone/Buying3 "Sounds/Drones/DroneBuy3.ogg"
+VirDrone/Buying4 "Sounds/Drones/DroneBuy4.ogg"
+VirDrone/Buying5 "Sounds/Drones/DroneBuy5.ogg"
+VirDrone/GoAway1 "Sounds/Drones/DroneBye1.ogg"
+VirDrone/GoAway2 "Sounds/Drones/DroneBye2.ogg"
+VirDrone/GoAway3 "Sounds/Drones/DroneBye3.ogg"
+VirDrone/GoAway4 "Sounds/Drones/DroneBye4.ogg"
+VirDrone/GoAway5 "Sounds/Drones/DroneBye5.ogg"
+$random VirDrone/Buys { VirDrone/Buying1  VirDrone/Buying2  VirDrone/Buying3  VirDrone/Buying4  VirDrone/Buying5  }
+$random VirDrone/GoodByes { VirDrone/GoAway1  VirDrone/GoAway2  VirDrone/GoAway3  VirDrone/GoAway4  VirDrone/GoAway5 }

@@ -1,0 +1,91 @@
+class HDMerchantGreenDroneSkin : HDMerchant {
+	Default{
+		tag "Green Support Drone";
+	}
+	States {
+		Spawn:
+			VDR1 A 0 NoDelay;
+		SpawnLoop:
+			#### AB 3;
+			Loop;
+		OpenMenu:
+			#### A 3 A_StartSound("VirDrone/Buys");
+			#### B 3;
+		Buying:
+			#### AB 3 BuyingIdle("CloseMenu", "VirDrone/GoodByes");
+			Loop;
+		CloseMenu:
+			#### A 3 A_StartSound("VirDrone/GoodByes");
+			#### B 3;
+			Goto SpawnLoop;
+	}
+}
+
+class HDMerchantRedDroneSkin : HDMerchant {
+	Default{
+		tag "Red Support Drone";
+	}
+	States {
+		Spawn:
+			VDR2 A 0 NoDelay;
+		SpawnLoop:
+			#### AB 3;
+			Loop;
+		OpenMenu:
+			#### A 3 A_StartSound("VirDrone/Buys");
+			#### B 3;
+		Buying:
+			#### AB 3 BuyingIdle("CloseMenu", "VirDrone/GoodByes");
+			Loop;
+		CloseMenu:
+			#### A 3 A_StartSound("VirDrone/GoodByes");
+			#### B 3;
+			Goto SpawnLoop;
+	}
+}
+
+class HDMerchantBlueDroneSkin : HDMerchant {
+	Default{
+		tag "Blue Support Drone";
+	}
+	States {
+		Spawn:
+			VDR3 A 0 NoDelay;
+		SpawnLoop:
+			#### AB 3;
+			Loop;
+		OpenMenu:
+			#### A 3 A_StartSound("VirDrone/Buys");
+			#### B 3;
+		Buying:
+			#### AB 3 BuyingIdle("CloseMenu", "VirDrone/GoodByes");
+			Loop;
+		CloseMenu:
+			#### A 3 A_StartSound("VirDrone/GoodByes");
+			#### B 3;
+			Goto SpawnLoop;
+	}
+}
+
+class HDMerchantYellowDroneSkin : HDMerchant {
+	Default{
+		tag "Yellow Support Drone";
+	}
+	States {
+		Spawn:
+			VDR4 A 0 NoDelay;
+		SpawnLoop:
+			#### AB 3;
+			Loop;
+		OpenMenu:
+			#### A 3 A_StartSound("VirDrone/Buys");
+			#### B 3;
+		Buying:
+			#### AB 3 BuyingIdle("CloseMenu", "VirDrone/GoodByes");
+			Loop;
+		CloseMenu:
+			#### A 3 A_StartSound("VirDrone/GoodByes");
+			#### B 3;
+			Goto SpawnLoop;
+	}
+}
