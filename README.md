@@ -1,7 +1,7 @@
 # Description
 This Addon adds more skins for the Hideous Destructor Merchants.
 
-_It REQUIRES both [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib) and the HDCoreLib branch of [Merchants](https://github.com/HDest-Community/Merchant/tree/HDCoreLib)!!_
+_It REQUIRES both [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib) and the [HDCoreLib branch of Merchants](https://github.com/HDest-Community/Merchant/tree/HDCoreLib)!!_
 
 
 
